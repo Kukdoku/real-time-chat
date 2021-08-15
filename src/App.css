@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  /* background-color: azure; */
+}
+
+.App {
+  /* text-align: center; */
+  background-color: rgb(46, 185, 185);
+}
+
+.app__form {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 20px; */
+  padding: 20px;
+  border: 1px bold gray;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+/* .app__message {
+  width: 60%;
+} */
+
+@media screen and (min-width: 900px) {
+  .MuiInputBase-root {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 600px) {
+  @media screen and (max-width: 900px) {
+    .MuiInputBase-root {
+      width: 70%;
+    }
+  }
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.app__file {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__progress {
+  width: 100%;
+  margin-top: 0px;
+  color: red;
+  padding: 0px;
+}

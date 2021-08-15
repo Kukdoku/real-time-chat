@@ -1,0 +1,30 @@
+.message {
+  /* padding: 10px; */
+  margin: 10px;
+  width: fit-content;
+  /* color: red; */
+}
+
+.message__user {
+  margin-left: auto;
+  /* color: white; */
+  text-align: left !important;
+  margin-right: 15px;
+}
+
+.message__userCard {
+  
+}
+
+.message__questCard {
+  background-color: rgb(110, 48, 48);
+  /* color: blue; */
+}
+
+.message__user > .message__userCard > .MuiCardContent-root {
+  background-color: rgb(241, 219, 219);
+}
+
+.false > .message__questCard > .MuiCardContent-root {
+  background-color: rgb(172, 238, 238);
+}
